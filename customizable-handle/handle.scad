@@ -1,10 +1,12 @@
-length = 140;
-depth = 50;
-thickness = 20;
-chamfer = 2;
-screw_diameter = 4.5;
-head_screw_diameter = 9;
-screw_space_left = 22;
+mounting_hole_distance = 120; // center to center distance of screw
+depth = 50; // total depth of the handle
+thickness = 20; // total thicness of the handle
+chamfer = 2; // chamfer size
+screw_diameter = 4.5; // monting hole diameter
+head_screw_diameter = 9; // monting hole diameter to pass screw head
+screw_space_left = 22; // space left between top of the head screw and target material
+
+length = mounting_hole_distance + thickness;
 
 short_central_body_length = length - (thickness + ((depth - thickness) * (sqrt(2) - 1))) * 2;
 echo(short_central_body_length);
@@ -14,7 +16,7 @@ echo(long_central_body_length);
 
 residual_length_space = (length-long_central_body_length)/2;
 
-difference() {
+rotate([90, 0, 0]) difference() {
     union() {
         ChamferTrapeze([long_central_body_length, thickness, thickness, 22.5, 22.5], chamfer);
 
