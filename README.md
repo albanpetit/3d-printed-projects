@@ -43,7 +43,7 @@ This project is licensed under the [MIT License](LICENSE), meaning you are free 
 
 ## 💬 Contact  
 
-If you have any questions or want to discuss 3D printing, feel free to open an issue or contact me directly! (contact@albanpetit.com)[contact@albanpetit.com]
+If you have any questions or want to discuss 3D printing, feel free to open an issue or contact me directly! [contact@albanpetit.com](contact@albanpetit.com)
 
 ---
 
