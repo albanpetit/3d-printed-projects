@@ -1,6 +1,6 @@
 # Customizable Handle (OpenSCAD)
 
-![ustomizable Handle](./images/cover-image-1.png)
+![ustomizable Handle](./extra/cover-image-1.png)
 
 This project provides a **3D-printable parametric handle**, designed in **OpenSCAD**, allowing full customization to fit various needs. Whether you need a replacement handle or a custom grip, this design can be easily adjusted to match your requirements.  
 
