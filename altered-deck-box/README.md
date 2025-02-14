@@ -1,6 +1,6 @@
 # Altered Deckbox - Rugged with modular spacers
 
-![Altered Deckbox](./images/cover-image-2.jpg)
+![Altered Deckbox](./extra/cover-image-2.jpg)
 
 This project provides a 3D-printable storage box designed specifically for the **Altered** card game. My goal is to offer a practical and stylish solution for storing and transporting your cards safely.  
 
